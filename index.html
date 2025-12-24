@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2025 성탄절 예배 - 열방위에서는교회</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Noto+Sans+KR:wght@300;400;500;700&family=Song+Myung&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="snow-container" aria-hidden="true"></div>
+
+    <main class="container">
+        <header class="hero-section">
+            <span class="date-badge">2025년 12월 25일 11시 30분</span>
+            <h1 class="main-title">성탄축하<br>예배</h1>
+            <h2 class="church-name">열방위에서는교회</h2>
+        </header>
+
+        <!-- Praise 1 -->
+        <section class="card praise-section">
+            <div class="card-header">
+                <h3>찬양</h3>
+            </div>
+            <div class="card-body">
+                <ul class="song-list">
+                    <li>
+                        <span>오랫동안 기다리던</span>
+                        <a href="image/오랫동안 기다리던.jpg" class="sheet-music-btn">악보</a>
+                    </li>
+                    <li>
+                        <span>저들밖에 한밤중에</span>
+                        <div style="display: flex; gap: 5px;">
+                            <a href="image/저들밖에 한밤중에1.png" class="sheet-music-btn">악보1</a>
+                            <a href="image/저들밖에 한밤중에2.png" class="sheet-music-btn">악보2</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Responsive Reading -->
+        <section class="card responsive-reading-section">
+            <div class="card-header">
+                <h3>교독문</h3>
+            </div>
+            <div class="card-body reading-content">
+                <p><strong>(인도자)</strong> 찬송하리로다 주 이스라엘의 하나님이여 그 백성을 돌보사 속량하시며</p>
+                <p><strong>(회중)</strong> 우리를 위하여 구원의 뿔을 그 종 다윗의 집에 일으키셨으니</p>
+                <p><strong>(인도자)</strong> 이것은 주께서 예로부터 거룩한 선지자의 입으로 말씀하신 바와 같이</p>
+                <p class="indent">우리 원수에게서와 우리를 미워하는 모든 자의 손에서 구원하시는 일이라</p>
+                <p><strong>(회중)</strong> 우리 조상을 긍휼히 여기시며 그 거룩한 언약을 기억하셨으니</p>
+                <p><strong>(인도자)</strong> 곧 우리 조상 아브라함에게 하신 맹세라</p>
+                <p><strong>(회중)</strong> 우리가 원수의 손에서 건지심을 받고 종신토록 주의 앞에서</p>
+                <p><strong>(다같이)</strong> 성결과 의로 두려움 없이 섬기게 하리라 하셨도다 (눅 1:68-75)</p>
+                <p><strong>(인도자)</strong> 이는 우리 하나님의 긍휼로 인함이라 이로써 돋는 해가 위로부터 우리에게 임하여</p>
+                <p><strong>(회중)</strong> 어둠과 죽음의 그늘에 앉은 자에게 비치고 우리 발을 평강의 길로 인도하시리로다 (눅 1:78-79)</p>
+                <p><strong>(인도자)</strong> 그러므로 주께서 친히 징조를 너희에게 주실 것이라</p>
+                <div class="highlight">
+                    <strong>(다함께)</strong> 보라 처녀가 잉태하여 아들을 낳을 것이요<br>그의 이름을 임마누엘이라 하리라 (사 7:14)
+                </div>
+            </div>
+        </section>
+
+        <!-- Sermon Info -->
+        <section class="card sermon-info-section">
+            <div class="card-header">
+                <h3>말씀 선포</h3>
+            </div>
+            <div class="card-body sermon-details">
+                <div class="bible-text">
+                    <span class="value">이사야서 52:7-10</span>
+                    <button class="bible-text-btn" onclick="toggleBible()">본문 보기 ▼</button>
+
+                    <div id="bibleTextContainer" class="bible-verse-container">
+                        <p class="bible-verse"><span class="verse-num">7</span> 좋은 소식을 전하며 평화를 공포하며 복된 좋은 소식을 가져오며 구원을
+                            공포하며 시온을 향하여 이르기를 네 하나님이 통치하신다 하는 자의 산을 넘는 발이 어찌 그리 아름다운가</p>
+                        <p class="bible-verse"><span class="verse-num">8</span> 네 파수꾼들의 소리로다 그들이 소리를 높여 일제히 노래하니 이는
+                            여호와께서 시온으로 돌아오실 때에 그들의 눈이 마주 보리로다</p>
+                        <p class="bible-verse"><span class="verse-num">9</span> 너 예루살렘의 황폐한 곳들아 기쁜 소리를 내어 함께 노래할지어다
+                            여호와께서 그의 백성을 위로하셨고 예루살렘을 구속하셨음이라</p>
+                        <p class="bible-verse"><span class="verse-num">10</span> 여호와께서 열방의 목전에서 그의 거룩한 팔을 나타내셨으므로 땅끝까지도
+                            모두 우리 하나님의 구원을 보았도다</p>
+                    </div>
+                </div>
+                <div class="sermon-title">
+                    <span class="value main-point">"노래를 부르리라"</span>
+                </div>
+                <div class="preacher">
+                    <span class="value">김태주 목사</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Praise 2 -->
+        <section class="card praise-section">
+            <div class="card-header">
+                <h3>찬양</h3>
+            </div>
+            <div class="card-body">
+                <ul class="song-list">
+                    <li>
+                        <span>고요한 밤 거룩한 밤</span>
+                        <a href="image/고요한 밤.pdf" class="sheet-music-btn">악보</a>
+                    </li>
+                    <li>
+                        <span>기쁘다며 경배하세</span>
+                        <a href="image/기뻐하며 경배하세.png" class="sheet-music-btn">악보</a>
+                    </li>
+                    <li>
+                        <span>천사들의 노래가</span>
+                        <a href="image/천사들의 노래가.png" class="sheet-music-btn">악보</a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Corporate Prayer -->
+        <section class="card prayer-section">
+            <div class="card-header">
+                <h3>공동기도문</h3>
+            </div>
+            <div class="card-body prayer-content">
+                <span class="prayer-instruction">(다함께 낭독합니다)</span>
+
+                <p>사랑과 빛으로 이 땅에 오신 하나님 아버지, 어두운 세상에 가장 낮은 모습으로 찾아와 주신 예수님의 탄생을 기뻐하며 찬양합니다.</p>
+                <p>오늘 우리 마음의 방에 주님을 모실 자리를 예비합니다. 화려한 장식과 세상의 즐거움보다, 말구유에 누우신 주님의 겸손과 평화를 먼저 묵상하게 하소서.</p>
+                <p>전쟁과 갈등으로 아파하는 곳에 평화의 왕으로 임하여 주시고, 소외되고 외로운 이웃들에게는 따뜻한 위로의 손길이 되어 주옵소서.</p>
+                <p>우리 또한 받은 사랑을 나누는 작은 통로가 되길 원합니다. 우리 입술에는 감사가, 손길에는 나눔이 넘치게 하소서. 우리를 구원하신 예수 그리스도의 이름으로 기도드립니다. 아멘.
+                </p>
+            </div>
+        </section>
+
+        <!-- Benediction -->
+        <section class="card benediction-section">
+            <h3>축도</h3>
+            <p style="margin-top: 10px; font-weight: bold;">김태주 목사</p>
+        </section>
+
+        <!-- Sermon Summary -->
+        <section class="card summary-section">
+            <div class="card-header">
+                <h3>설교 요약</h3>
+            </div>
+            <div class="card-body summary-content">
+                <h4 class="summary-title">승리의 노래를 부르리라</h4>
+
+                <div class="summary-point">
+                    <h5>들려주고 싶은 노래</h5>
+                    <ul>
+                        <li>이사야가 이스라엘 백성들에게 들려주고 싶었던 승전보의 노래</li>
+                        <li>바빌론 유배의 절망 속에서 선포된 구원과 평화의 메시지</li>
+                        <li>성탄절, 이 노래가 우리에게 실현된 날</li>
+                    </ul>
+                </div>
+
+                <div class="summary-point">
+                    <h5>산을 넘는 아름다운 발 (7절)</h5>
+                    <ul>
+                        <li>고대 전령이 가져온 기쁜 소식: "네 하나님이 통치하신다"</li>
+                        <li>세상의 권세가 아닌, 야훼 하나님이 진정한 왕이심을 선포</li>
+                        <li>성탄절은 이 선포가 실현된 날, 아기 예수로 오신 하나님의 통치</li>
+                    </ul>
+                </div>
+
+                <div class="summary-point">
+                    <h5>구유에 나타난 하나님의 거룩한 팔 (10절)</h5>
+                    <ul>
+                        <li>전사의 강력한 팔이 구유의 무력한 아기 팔로 나타난 역설</li>
+                        <li>자기 비하를 통한 구원: 베들레헴 구유에서 골고다 십자가까지</li>
+                        <li>포대기에서 수의로, 탄생에서 부활로 이어지는 구원의 완성</li>
+                    </ul>
+                </div>
+
+                <div class="summary-point">
+                    <h5>황폐한 곳에서 터져 나오는 노래 (8-9절)</h5>
+                    <ul>
+                        <li>아직 폐허인 예루살렘에 먼저 울려 퍼진 기쁨의 노래</li>
+                        <li>파수꾼들이 왕의 귀환을 직접 목격하고 부른 찬양</li>
+                        <li>믿음은 결과 전에 먼저 행동하는 것, 슬픔 속에서도 기쁨의 노래를 부를 때 변화가 일어남</li>
+                    </ul>
+                </div>
+
+                <div class="summary-point">
+                    <h5>오늘날의 파수꾼으로</h5>
+                    <ul>
+                        <li>우리는 '이미와 아직 사이'를 살아가는 이 시대의 파수꾼</li>
+                        <li>하님이 통치가 임하는 징조를 살피며 증언하는 삶</li>
+                        <li>"하나님이 다스리신다!"는 기쁜 소식을 전하며 노래하는 성도로</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 열방위에서는교회</p>
+        </footer>
+    </main>
+
+    <!-- Sheet Music Modal -->
+    <div id="musicModal" class="modal">
+        <div class="modal-content-wrapper">
+            <button class="close-btn">&times;</button>
+            <img class="modal-img" id="modalImage" style="display: none;">
+            <iframe class="modal-pdf" id="modalPdf" style="display: none;"></iframe>
+        </div>
+    </div>
+
+    <script>
+        // Simple snow effect
+        const snowContainer = document.querySelector('.snow-container');
+        const snowCount = 80;
+
+        for (let i = 0; i < snowCount; i++) {
+            const snow = document.createElement('div');
+            snow.className = 'snow';
+            snow.style.left = Math.random() * 100 + '%';
+            snow.style.animationDuration = Math.random() * 5 + 3 + 's';
+            snow.style.opacity = Math.random() * 0.7 + 0.3;
+            snow.style.width = Math.random() * 4 + 2 + 'px';
+            snow.style.height = snow.style.width;
+
+            snowContainer.appendChild(snow);
+        }
+
+        // Modal Logic
+        const modal = document.getElementById('musicModal');
+        const modalImg = document.getElementById('modalImage');
+        const modalPdf = document.getElementById('modalPdf');
+        const closeBtn = document.querySelector('.close-btn');
+        const musicBtns = document.querySelectorAll('.sheet-music-btn');
+
+        musicBtns.forEach(btn => {
+            btn.addEventListener('click', function (e) {
+                e.preventDefault();
+                const fileUrl = this.getAttribute('href');
+                const isPdf = fileUrl.toLowerCase().endsWith('.pdf');
+
+                if (isPdf) {
+                    modalImg.style.display = 'none';
+                    modalPdf.style.display = 'block';
+                    modalPdf.src = fileUrl;
+                } else {
+                    modalPdf.style.display = 'none';
+                    modalImg.style.display = 'block';
+                    modalImg.src = fileUrl;
+                }
+
+                modal.style.display = 'flex';
+            });
+        });
+
+        const closeModal = () => {
+            modal.style.display = 'none';
+            modalPdf.src = '';
+            modalImg.src = '';
+        }
+
+        closeBtn.addEventListener('click', closeModal);
+
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                closeModal();
+            }
+        });
+
+        // Bible Text Toggle
+        function toggleBible() {
+            const container = document.getElementById('bibleTextContainer');
+            const btn = document.querySelector('.bible-text-btn');
+            if (container.style.display === 'block') {
+                container.style.display = 'none';
+                btn.textContent = '본문 보기 ▼';
+            } else {
+                container.style.display = 'block';
+                btn.textContent = '본문 닫기 ▲';
+            }
+        }
+    </script>
+</body>
+
+</html>
