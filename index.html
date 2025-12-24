@@ -129,11 +129,12 @@
             <div class="card-body prayer-content">
                 <span class="prayer-instruction">(다함께 낭독합니다)</span>
 
-                <p>사랑과 빛으로 이 땅에 오신 하나님 아버지, 어두운 세상에 가장 낮은 모습으로 찾아와 주신 예수님의 탄생을 기뻐하며 찬양합니다.</p>
-                <p>오늘 우리 마음의 방에 주님을 모실 자리를 예비합니다. 화려한 장식과 세상의 즐거움보다, 말구유에 누우신 주님의 겸손과 평화를 먼저 묵상하게 하소서.</p>
-                <p>전쟁과 갈등으로 아파하는 곳에 평화의 왕으로 임하여 주시고, 소외되고 외로운 이웃들에게는 따뜻한 위로의 손길이 되어 주옵소서.</p>
-                <p>우리 또한 받은 사랑을 나누는 작은 통로가 되길 원합니다. 우리 입술에는 감사가, 손길에는 나눔이 넘치게 하소서. 우리를 구원하신 예수 그리스도의 이름으로 기도드립니다. 아멘.
-                </p>
+                <p>사랑의 하나님, 밤이 가장 긴 동지를 보내고 그리스도의 초에 불을 밝히며 빛의 시간을 맞이합니다. 성탄절의 밝은 빛 앞에 우리의 고단한 몸과 연약한 마음을 내려놓습니다. 이 땅과
+                    시대에 드리워진 어둠에 우리는 지쳤기 때문입니다. 주님, 말씀이 육신이 되어 우리 가운데 오신 그 신비를 온몸으로 품게 해 주십시오. 그리하여 말씀을 품은 몸으로 생명과 평화의
+                    일꾼이 되어 하나님 나라를 열어가는 그리스도인으로 살게 해 주십시오.</p>
+                <p>교회의 머리 되신 주님, 세종 땅에 세종청파교회를 세워주시고 말씀의 사람들과 함께 예배하게 하시니 감사합니다. 많은 사람이 세상의 중심을 찾고, 구하고, 향하고 있습니다. 우리는
+                    고통 가운데 임재하는 주님 계신 곳을 세상의 중심이라고 고백합니다. 생명을 살리고, 평화를 일구는 삶의 예배로 하나님 나라를 열어가는 예배공동체가 되게 해 주십시오. 예수님의
+                    이름으로 기도드립니다. 아멘.</p>
             </div>
         </section>
 
@@ -149,51 +150,55 @@
                 <h3>설교 요약</h3>
             </div>
             <div class="card-body summary-content">
-                <h4 class="summary-title">승리의 노래를 부르리라</h4>
+                <button class="summary-toggle-btn" onclick="toggleSummary()">설교 요약 보기 ▼</button>
 
-                <div class="summary-point">
-                    <h5>들려주고 싶은 노래</h5>
-                    <ul>
-                        <li>이사야가 이스라엘 백성들에게 들려주고 싶었던 승전보의 노래</li>
-                        <li>바빌론 유배의 절망 속에서 선포된 구원과 평화의 메시지</li>
-                        <li>성탄절, 이 노래가 우리에게 실현된 날</li>
-                    </ul>
-                </div>
+                <div id="summaryContainer" class="summary-text-container">
+                    <h4 class="summary-title">승리의 노래를 부르리라</h4>
 
-                <div class="summary-point">
-                    <h5>산을 넘는 아름다운 발 (7절)</h5>
-                    <ul>
-                        <li>고대 전령이 가져온 기쁜 소식: "네 하나님이 통치하신다"</li>
-                        <li>세상의 권세가 아닌, 야훼 하나님이 진정한 왕이심을 선포</li>
-                        <li>성탄절은 이 선포가 실현된 날, 아기 예수로 오신 하나님의 통치</li>
-                    </ul>
-                </div>
+                    <div class="summary-point">
+                        <h5>들려주고 싶은 노래</h5>
+                        <ul>
+                            <li>이사야가 이스라엘 백성들에게 들려주고 싶었던 승전보의 노래</li>
+                            <li>바빌론 유배의 절망 속에서 선포된 구원과 평화의 메시지</li>
+                            <li>성탄절, 이 노래가 우리에게 실현된 날</li>
+                        </ul>
+                    </div>
 
-                <div class="summary-point">
-                    <h5>구유에 나타난 하나님의 거룩한 팔 (10절)</h5>
-                    <ul>
-                        <li>전사의 강력한 팔이 구유의 무력한 아기 팔로 나타난 역설</li>
-                        <li>자기 비하를 통한 구원: 베들레헴 구유에서 골고다 십자가까지</li>
-                        <li>포대기에서 수의로, 탄생에서 부활로 이어지는 구원의 완성</li>
-                    </ul>
-                </div>
+                    <div class="summary-point">
+                        <h5>산을 넘는 아름다운 발 (7절)</h5>
+                        <ul>
+                            <li>고대 전령이 가져온 기쁜 소식: "네 하나님이 통치하신다"</li>
+                            <li>세상의 권세가 아닌, 야훼 하나님이 진정한 왕이심을 선포</li>
+                            <li>성탄절은 이 선포가 실현된 날, 아기 예수로 오신 하나님의 통치</li>
+                        </ul>
+                    </div>
 
-                <div class="summary-point">
-                    <h5>황폐한 곳에서 터져 나오는 노래 (8-9절)</h5>
-                    <ul>
-                        <li>아직 폐허인 예루살렘에 먼저 울려 퍼진 기쁨의 노래</li>
-                        <li>파수꾼들이 왕의 귀환을 직접 목격하고 부른 찬양</li>
-                        <li>믿음은 결과 전에 먼저 행동하는 것, 슬픔 속에서도 기쁨의 노래를 부를 때 변화가 일어남</li>
-                    </ul>
-                </div>
+                    <div class="summary-point">
+                        <h5>구유에 나타난 하나님의 거룩한 팔 (10절)</h5>
+                        <ul>
+                            <li>전사의 강력한 팔이 구유의 무력한 아기 팔로 나타난 역설</li>
+                            <li>자기 비하를 통한 구원: 베들레헴 구유에서 골고다 십자가까지</li>
+                            <li>포대기에서 수의로, 탄생에서 부활로 이어지는 구원의 완성</li>
+                        </ul>
+                    </div>
 
-                <div class="summary-point">
-                    <h5>오늘날의 파수꾼으로</h5>
-                    <ul>
-                        <li>우리는 '이미와 아직 사이'를 살아가는 이 시대의 파수꾼</li>
-                        <li>하님이 통치가 임하는 징조를 살피며 증언하는 삶</li>
-                        <li>"하나님이 다스리신다!"는 기쁜 소식을 전하며 노래하는 성도로</li>
-                    </ul>
+                    <div class="summary-point">
+                        <h5>황폐한 곳에서 터져 나오는 노래 (8-9절)</h5>
+                        <ul>
+                            <li>아직 폐허인 예루살렘에 먼저 울려 퍼진 기쁨의 노래</li>
+                            <li>파수꾼들이 왕의 귀환을 직접 목격하고 부른 찬양</li>
+                            <li>믿음은 결과 전에 먼저 행동하는 것, 슬픔 속에서도 기쁨의 노래를 부를 때 변화가 일어남</li>
+                        </ul>
+                    </div>
+
+                    <div class="summary-point">
+                        <h5>오늘날의 파수꾼으로</h5>
+                        <ul>
+                            <li>우리는 '이미와 아직 사이'를 살아가는 이 시대의 파수꾼</li>
+                            <li>하님이 통치가 임하는 징조를 살피며 증언하는 삶</li>
+                            <li>"하나님이 다스리신다!"는 기쁜 소식을 전하며 노래하는 성도로</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
@@ -280,6 +285,18 @@
             } else {
                 container.style.display = 'block';
                 btn.textContent = '본문 닫기 ▲';
+            }
+        }
+        // Sermon Summary Toggle
+        function toggleSummary() {
+            const container = document.getElementById('summaryContainer');
+            const btn = document.querySelector('.summary-toggle-btn');
+            if (container.style.display === 'block') {
+                container.style.display = 'none';
+                btn.textContent = '설교 요약 보기 ▼';
+            } else {
+                container.style.display = 'block';
+                btn.textContent = '설교 요약 닫기 ▲';
             }
         }
     </script>
